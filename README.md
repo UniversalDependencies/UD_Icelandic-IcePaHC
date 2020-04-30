@@ -34,9 +34,11 @@ Using the sentence IDs within UD_Icelandic-IcePaHC, specific genres or periods c
 
 ## Data split
 
+For information on wach text, see [IcePaHC documnentation](https://linguist.is/icelandic_treebank/Texts).
+
 **TRAIN:**
 - `1150.HOMILIUBOK.REL-SER`
-- `1210.THORLAKUR.RE --SAG`
+- `1210.THORLAKUR.REL-SAG`
 - `1250.STURLUNGA.NAR-SAG`
 - `1260.JOMSVIKINGAR.NAR-SAG`
 - `1270.GRAGAS.LAW-LAW`
