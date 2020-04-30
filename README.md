@@ -6,18 +6,7 @@ The conversion was done using a custom-made heuristic converter.
 
 # Introduction
 
-The Icelandic Parsed Historical Corpus (IcePaHC) is a one-million-word, diachronic corpus which includes 61 texts from the 12th to 21st centuries. These texts were originally manually parsed according to the Penn Parsed Corpora of Historical English (PPCHE) annotation scheme. These parsed texts where then automatically converted to the Universaly Dependencies scheme.
-
-Each sentence ID in UD-Icelandic-IcePaHC carries the following information:
-
-```
-1150.FIRSTGRAMMAR.SCI-LIN,1.1
-```
-- Publication year of the text (`1150`)
-- Name of the text (`FIRSTGRAMMAR`)
-- Text genre (`SCI-LIN`)
-- Index within text (`1`)
-- Index within file (`1`)
+The Icelandic Parsed Historical Corpus (IcePaHC) is a one-million-word, diachronic corpus which includes 61 texts from the 12th to 21st centuries. These texts were originally manually parsed according to the Penn Parsed Corpora of Historical English (PPCHE) annotation scheme. These parsed texts where then automatically converted to the Universaly Dependencies scheme to create UD-Icelandic-IcePaHC.
 
 ## Text categories
 
@@ -29,6 +18,17 @@ UD_Icelandic-IcePaHC contains the following main genres:
 - **LAW**: Law texts
 
 Further subclassification is reflected in the extended genre label. For example **NAR-SAG** means narrative-saga and **REL-BIB** means religious text-bible
+
+Each sentence ID in UD-Icelandic-IcePaHC carries the following information:
+
+```
+1150.FIRSTGRAMMAR.SCI-LIN,1.1
+```
+- Publication year of the text (`1150`)
+- Name of the text (`FIRSTGRAMMAR`)
+- Text genre (`SCI-LIN`)
+- Index within text (`1`)
+- Index within file (`1`)
 
 Using the sentence IDs within UD_Icelandic-IcePaHC, specific genres or periods can be extracted or filtered from the treebank CoNLL-U files.
 
