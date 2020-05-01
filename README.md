@@ -34,7 +34,7 @@ Using the sentence IDs within UD_Icelandic-IcePaHC, specific genres or periods c
 
 ## Data split
 
-For information on wach text, see [IcePaHC documnentation](https://linguist.is/icelandic_treebank/Texts).
+For further info on each text, see the [IcePaHC documnentation](https://linguist.is/icelandic_treebank/Texts).
 
 **TRAIN:**
 - `1150.HOMILIUBOK.REL-SER`
@@ -79,7 +79,7 @@ For information on wach text, see [IcePaHC documnentation](https://linguist.is/i
 - `1985.SAGAN.NAR-FIC`
 - `2008.MAMMA.NAR-FIC`
 
-**TEST**
+**TEST:**
 - `1150.FIRSTGRAMMAR.SCI-LIN`
 - `1210.JARTEIN.REL-SAG`
 - `1350.MARTA.REL-SAG`
@@ -91,7 +91,7 @@ For information on wach text, see [IcePaHC documnentation](https://linguist.is/i
 - `1850.PILTUR.NAR-FIC`
 - `1920.ARIN.REL-SER`
 
-**DEV**
+**DEV:**
 - `1250.THETUBROT.NAR-SAG`
 - `1350.BANDAMENNM.NAR-SAG`
 - `1475.AEVINTYRI.NAR-REL`
