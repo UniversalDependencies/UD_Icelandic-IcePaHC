@@ -22,6 +22,14 @@ def get_error_sents(path):
                     error_sent_ids.append(sentence.id)
     return error_sent_ids
 
+def fix_sent_ids(conll, file_count, total_count):
+    lines = conll.split('\n')
+    s_id = lines[1]
+    x_id = lines[0]
+    new_s_id = s_id.split(',')[0]+f',{file_count}.{total_count}'
+    new_lines = [new_s_id, x_id] + lines[2:]
+    return '\n'.join(new_lines)
+
 SPLITS = {
     'train': ['1150.homiliubok.rel-ser',
               '1210.thorlakur.rel-sag',
@@ -96,17 +104,26 @@ ERROR_SENTS = get_error_sents(TEST_PATH)
 print(f'\nNo. of non-valid sentencens:\t{len(ERROR_SENTS)}\n')
 
 for prefix in PREFIXES:
+    total_sentences = 0
     output_file = f'is_icepahc-ud-{prefix}.conllu'
     print(f'Writing to file: {output_file}')
     with open(output_file, 'a+') as f, open('error_sents.conllu', 'a+') as err_f:
         for file in SPLITS[prefix]:
+            
+            file_sentences = 0
+            
             file += '.conllu'
             print(f'\t{file}')
             conll = pyconll.iter_from_file(os.path.join(TEST_PATH, file))
             for sentence in conll:
-                if sentence.id in ERROR_SENTS:
-                    err_f.write(sentence.conll())
-                    err_f.write('\n\n')
-                else:
-                    f.write(sentence.conll())
-                    f.write('\n\n')
+                file_sentences +=1
+                total_sentences +=1
+                # if sentence.id in ERROR_SENTS:
+                #     err_f.write(sentence.conll())
+                #     err_f.write('\n\n')
+                # else:
+                output_conll = fix_sent_ids(sentence.conll(), file_sentences, total_sentences)
+                f.write(sentence.conll())
+                f.write('\n\n')
+
+                
