@@ -132,8 +132,8 @@ UPOS: converted from manual
 XPOS: manual native
 Features: automatic
 Relations: converted from manual
-Contributors: Sigurðsson, Einar Freyr
+Contributors: Arnardóttir, Þórunn, Hafsteinsson, Hinrik, Sigurðsson, Einar Freyr, Jónsdóttir, Hildur, Bjarnadóttir, Kristín, Ingason, Anton Karl, Rúnarsson, Kristján, Steingrímsson, Steinþór, Wallenberg, Joel C. and Rögnvaldsson, Eiríkur.
 Contributing: elsewhere
-Contact: einar.freyr.sigurdsson@arnastofnun.is
+Contact: thar@hi.is, hinrik.hafst@gmail.com, einar.freyr.sigurdsson@arnastofnun.is
 ===============================================================================
 </pre>
