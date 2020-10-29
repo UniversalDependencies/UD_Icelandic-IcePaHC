@@ -123,7 +123,7 @@ for prefix in PREFIXES:
                 #     err_f.write('\n\n')
                 # else:
                 output_conll = fix_sent_ids(sentence.conll(), file_sentences, total_sentences)
-                f.write(sentence.conll())
+                f.write(output_conll)
                 f.write('\n\n')
 
                 
