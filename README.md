@@ -119,7 +119,7 @@ Morphological features where generated using ABLTagger, a state-of-the-art PoS t
 
 # Changelog
 
-* 2020-05-15 v2.6
+* 2020-11-15 v2.7
   * Initial release in Universal Dependencies.
 
 
