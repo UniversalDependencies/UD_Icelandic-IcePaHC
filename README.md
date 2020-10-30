@@ -2,7 +2,7 @@
 
 UD_Icelandic-IcePaHC is a conversion of the [Icelandic Parsed Historical Corpus (IcePaHC)](https://linguist.is/icelandic_treebank/Icelandic_Parsed_Historical_Corpus_(IcePaHC)) to the Universal Dependencies scheme.
 
-The conversion was done using a custom-made heuristic converter.
+The conversion was done using [UDConverter](https://github.com/thorunna/UDConverter).
 
 # Introduction
 
@@ -107,6 +107,8 @@ For further info on each text, see the [IcePaHC documnentation](https://linguist
 # Acknowledgments
 
 This project is funded by The Strategic Research and Development Programme for Language Technology, grant no. 180020-5301. Thanks are due to Örvar Kárason, whose previous work was used as a basis for the conversion.
+
+The Icelandic Parsed Historical Corpus (IcePaHC) is available at https://linguist.is/icelandic_treebank/Icelandic_Parsed_Historical_Corpus_.
 
 Morphological features where generated using ABLTagger, a state-of-the-art PoS tagger for Icelandic. It is developed by Steinþór Steingrímsson, Örvar Kárason and Hrafn Loftsson and available from https://github.com/steinst/ABLTagger.
 
