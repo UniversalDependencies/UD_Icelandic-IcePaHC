@@ -123,7 +123,7 @@ Morphological features where generated using ABLTagger, a state-of-the-art PoS t
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
-Data available since: UD v2.6
+Data available since: UD v2.7
 License: CC BY-SA 4.0
 Includes text: yes
 Genre: fiction bible nonfiction legal
