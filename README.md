@@ -110,12 +110,30 @@ This project is funded by The Strategic Research and Development Programme for L
 
 The Icelandic Parsed Historical Corpus (IcePaHC) is available at https://linguist.is/icelandic_treebank/Download.
 
-Morphological features where generated using ABLTagger, a state-of-the-art PoS tagger for Icelandic. It is developed by Steinþór Steingrímsson, Örvar Kárason and Hrafn Loftsson and available from https://github.com/steinst/ABLTagger.
+Morphological features were generated using ABLTagger, a PoS tagger for Icelandic, developed by Steinþór Steingrímsson, Örvar Kárason and Hrafn Loftsson and available [here](https://github.com/steinst/ABLTagger).
 
 ## References
 
-* (citation)
-
+```
+@inproceedings{arnardottir-etal-2020-universal,
+    title = "A {U}niversal {D}ependencies Conversion Pipeline for a {P}enn-format Constituency Treebank",
+    author = "Arnard{\'o}ttir, {\TH}{\'o}runn  and
+      Hafsteinsson, Hinrik  and
+      Sigur{\dh}sson, Einar Freyr  and
+      Bjarnad{\'o}ttir, Krist{\'\i}n  and
+      Ingason, Anton Karl  and
+      J{\'o}nsd{\'o}ttir, Hildur  and
+      Steingr{\'\i}msson, Stein{\th}{\'o}r",
+    booktitle = "Proceedings of the Fourth Workshop on Universal Dependencies (UDW 2020)",
+    month = dec,
+    year = "2020",
+    address = "Barcelona, Spain (Online)",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2020.udw-1.3",
+    pages = "16--25",
+    abstract = "The topic of this paper is a rule-based pipeline for converting constituency treebanks based on the Penn Treebank format to Universal Dependencies (UD). We describe an Icelandic constituency treebank, its annotation scheme and the UD scheme. The conversion is discussed, the methods used to deliver a fully automated UD corpus and complications involved. To show its applicability to corpora in different languages, we extend the pipeline and convert a Faroese constituency treebank to a UD corpus. The result is an open-source conversion tool, published under an Apache 2.0 license, applicable to a Penn-style treebank for conversion to a UD corpus, along with the two new UD corpora.",
+}
+```
 
 # Changelog
 
