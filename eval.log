@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 3478a99bb195eb8749c367af4f7b3fd357a12a4c
-Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 2 22:17:19 2021 +0100
+commit ba6fbf413cb14afa25145b931c79fb60ef9456e2
+Author: www-data (nschneid) <nschneid@github.com>
+Date:   Wed May 11 05:10:30 2022 +0200
 Evaluating the following revision of UD_Icelandic-IcePaHC:
-commit 1a86a64bd8c3944dc69293b27413f1cb1ae46284
+commit 10d3b2d09bb2960fb3ea2489bd184786ed02eb84
+Merge: e257463 ed86a4a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Thu May 13 09:26:54 2021 +0200
 Size: counted 985057 of 985057 words (nodes).
 Size: min(0, log((N/1000)**2)) = 13.7853990150362.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -20,8 +20,8 @@ Features: source of annotation (from README) factor is 0.4.
 Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi:
-               TOTAL      62828
-Udapi: found 62828 bugs.
+               TOTAL      62824
+Udapi: found 62824 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 985057 words.
 Genres: found 4 out of 17 known.
 validate.py --lang is --max-err=10 UD_Icelandic-IcePaHC/is_icepahc-ud-dev.conllu
@@ -37,8 +37,8 @@ Validity: 1
 (weight=0.256410256410256) * (score{size}=0.997820453844125) = 0.25585139842157
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
-(weight=0.307692307692308) * (score{udapi}=0.362189193112683) = 0.111442828650056
+(weight=0.307692307692308) * (score{udapi}=0.362229799899904) = 0.111455323046124
 (weight=0.0769230769230769) * (score{udeprels}=0.691891891891892) = 0.0532224532224532
-(TOTAL score=0.640124523431335) * (availability=1) * (validity=1) = 0.640124523431335
+(TOTAL score=0.640137017827403) * (availability=1) * (validity=1) = 0.640137017827403
 STARS = 3
-UD_Icelandic-IcePaHC	0.640124523431335	3
+UD_Icelandic-IcePaHC	0.640137017827403	3
