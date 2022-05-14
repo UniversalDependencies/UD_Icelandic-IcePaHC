@@ -10,23 +10,23 @@
     <dev><sentences>4865</sentences><tokens>139384</tokens><words>139606</words><fused>222</fused></dev>
     <test><sentences>5157</sentences><tokens>139578</tokens><words>139697</words><fused>119</fused></test>
   </size>
-  <lemmas unique="36218" /><!-- ,, og, ., hann, að, vera, það, ég, í, á, til, en, ", sem, hafa -->
+  <lemmas unique="36209" /><!-- ,, og, ., hann, að, vera, það, ég, í, á, til, en, ", sem, hafa -->
   <forms unique="65701" /><!-- ,, og, ., að, hann, í, er, á, til, en, ", sem, var, þá, það -->
   <fusions unique="243" /><!-- skaltu, ertu, muntu, viltu, láttu, máttu, vertu, attú, veistu, áttu, sjáðu, heyrðu, farðu, þarftu, heldurðu -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="16">
-    <tag name="ADJ">37155</tag><!-- góður, samur, stór, gamall, heilagur, sannur, langur, fullur, illur, lítill -->
+    <tag name="ADJ">37164</tag><!-- góður, samur, stór, gamall, heilagur, sannur, langur, fullur, illur, lítill -->
     <tag name="ADP">111155</tag><!-- í, á, til, með, af, fyrir, um, að, við, upp -->
-    <tag name="ADV">79025</tag><!-- ekki, þá, svo, þar, nú, vel, þó, hér, síðan, og -->
+    <tag name="ADV">79023</tag><!-- ekki, þá, svo, þar, nú, vel, þó, hér, síðan, og -->
     <tag name="AUX">51272</tag><!-- vera, hafa, munu, skulu, vilja, mega, geta, verða, fá, kunna -->
     <tag name="CCONJ">57251</tag><!-- og, en, eða, bæði, eður, né, hvorki, og-og, enda, ýmist -->
     <tag name="DET">44865</tag><!-- sá, allur, þessi, mikill, einn, hinn, enginn, margur, nokkur, hver -->
     <tag name="INTJ">1198</tag><!-- já, nei, ó, amen, æ, jú, nú, jæja, ja, vei -->
-    <tag name="NOUN">145951</tag><!-- maður, konungur, dagur, hönd, biskup, land, orð, kóngur, sonur, faðir -->
+    <tag name="NOUN">145947</tag><!-- maður, konungur, dagur, hönd, biskup, land, orð, kóngur, sonur, faðir -->
     <tag name="NUM">4411</tag><!-- tveir, þrír, fjórir, fimm, tólf, sex, sjö, tíu, hálfur, hundrað -->
     <tag name="PART">11781</tag><!-- að, nema, bara, einn, jafnvel, aðeins, a., at, einasta, alleinasta -->
     <tag name="PRON">120336</tag><!-- hann, það, ég, þú, hún, sinn, sig, annar, minn, hver -->
-    <tag name="PROPN">41407</tag><!-- guð, jesús, drottinn, herra, sturla, jón, illugi, kristur, oddur, finnbogi -->
+    <tag name="PROPN">41404</tag><!-- guð, jesús, drottinn, herra, sturla, jón, illugi, kristur, oddur, finnbogi -->
     <tag name="PUNCT">113953</tag><!-- ,, ., ", :, ;, ?, !, -, "-", — -->
     <tag name="SCONJ">34352</tag><!-- að, sem, er, hvort, eð, ef, það, hver, hvor, at -->
     <tag name="VERB">128669</tag><!-- segja, koma, fara, taka, verða, gera, ganga, sjá, láta, eiga -->
