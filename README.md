@@ -139,7 +139,8 @@ Morphological features were generated using ABLTagger, a PoS tagger for Icelandi
 
 * 2020-11-15 v2.7
   * Initial release in Universal Dependencies.
-
+* 2022-05-15 v2.10
+  * A few errors, such as wrong lemmas, fixed.
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
