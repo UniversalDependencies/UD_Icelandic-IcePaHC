@@ -136,7 +136,7 @@ Morphological features were generated using ABLTagger, a PoS tagger for Icelandi
 ```
 
 # Changelog
-* 2022-11-15 v2.10
+* 2022-11-15 v2.11
   * Various lemmas fixed.
   * Validation syntax errors (too many subjects).
   * Various minor fixes for UPOS, XPOS, deprels and UD features.
