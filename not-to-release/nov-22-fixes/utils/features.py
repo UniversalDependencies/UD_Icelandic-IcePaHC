@@ -184,7 +184,7 @@ class Features:
             tagged = json.loads(res.text)
             return {
                 pair["word"]: (pair["tag"], pair["lemma"])
-                for pair in tagged["paragraphs"][0]["sentences"][0]
+                for pair in [j for i in tagged["paragraphs"][0]["sentences"] for j in i]
             }
         except:
             raise FeatureExtractionError(
