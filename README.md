@@ -136,7 +136,16 @@ Morphological features were generated using ABLTagger, a PoS tagger for Icelandi
 ```
 
 # Changelog
-
+* 2022-11-15 v2.11
+  * Various lemmas fixed.
+  * Validation syntax errors (too many subjects).
+  * Various minor fixes for UPOS, XPOS, deprels and UD features.
+  * Missing UD features added to `is_icepahc-trian.conllu`.
+    * 1680.SKALHOLT.NAR-REL, sentences 150.21339 to 223.21412.
+  * Missing UD features added to joined tokens, mostly pronomial clitics.
+  * Incorrect `case` deprels changed to `mark` for tokens 'ef', 'þegar', 'nema', 'þótt', 'þó'.
+* 2022-05-15 v2.10
+  * A few errors, such as wrong lemmas, fixed.
 * 2020-11-15 v2.7
   * Initial release in Universal Dependencies.
 
