@@ -136,6 +136,10 @@ Morphological features were generated using ABLTagger, a PoS tagger for Icelandi
 ```
 
 # Changelog
+* 2023-05-15 v2.12
+  * Deprels for 'en', 'meðan' and 'uns' changed from `case` to `mark`.
+  * Some systematic discrepancies between UPOS and universal features/IFD tags fixed.
+  * Various lemma fixes.
 * 2022-11-15 v2.11
   * Various lemmas fixed.
   * Validation syntax errors (too many subjects).
