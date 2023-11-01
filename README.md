@@ -6,7 +6,7 @@ The conversion was done using [UDConverter](https://github.com/thorunna/UDConver
 
 # Introduction
 
-The Icelandic Parsed Historical Corpus (IcePaHC) is a one-million-word, diachronic corpus which includes 61 texts from the 12th to 21st centuries. These texts were originally manually parsed according to the Penn Parsed Corpora of Historical English (PPCHE) annotation scheme. These parsed texts where then automatically converted to the Universal Dependencies scheme to create UD_Icelandic-IcePaHC.
+The Icelandic Parsed Historical Corpus (IcePaHC) is a one-million-word, diachronic corpus which includes 61 texts from the 12th to 21st centuries. These texts were originally manually parsed according to the Penn Parsed Corpora of Historical English (PPCHE) annotation scheme. These parsed texts were later automatically converted to the Universal Dependencies scheme to create UD_Icelandic-IcePaHC.
 
 ## Text categories
 
@@ -34,7 +34,7 @@ Using the sentence IDs within UD_Icelandic-IcePaHC, specific genres or periods c
 
 ## Data split
 
-For further info on each text, see the [IcePaHC documnentation](https://linguist.is/icelandic_treebank/Texts).
+For further info on each text, see the [IcePaHC documentation](https://linguist.is/icelandic_treebank/Texts).
 
 **TRAIN:**
 - `1150.HOMILIUBOK.REL-SER`
