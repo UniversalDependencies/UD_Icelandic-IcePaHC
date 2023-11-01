@@ -133,9 +133,31 @@ Morphological features were generated using ABLTagger, a PoS tagger for Icelandi
     pages = "16--25",
     abstract = "The topic of this paper is a rule-based pipeline for converting constituency treebanks based on the Penn Treebank format to Universal Dependencies (UD). We describe an Icelandic constituency treebank, its annotation scheme and the UD scheme. The conversion is discussed, the methods used to deliver a fully automated UD corpus and complications involved. To show its applicability to corpora in different languages, we extend the pipeline and convert a Faroese constituency treebank to a UD corpus. The result is an open-source conversion tool, published under an Apache 2.0 license, applicable to a Penn-style treebank for conversion to a UD corpus, along with the two new UD corpora.",
 }
+
+@inproceedings{arnardottir-etal-2023-evaluating,
+    title = "Evaluating a {U}niversal {D}ependencies Conversion Pipeline for {I}celandic",
+    author = "Arnard{\'o}ttir, {\TH}{\'o}runn  and
+      Hafsteinsson, Hinrik  and
+      Jasonarson, Atli  and
+      Ingason, Anton  and
+      Steingr{\'\i}msson, Stein{\th}{\'o}r",
+    editor = {Alum{\"a}e, Tanel  and
+      Fishel, Mark},
+    booktitle = "Proceedings of the 24th Nordic Conference on Computational Linguistics (NoDaLiDa)",
+    month = may,
+    year = "2023",
+    address = "T{\'o}rshavn, Faroe Islands",
+    publisher = "University of Tartu Library",
+    url = "https://aclanthology.org/2023.nodalida-1.69",
+    pages = "698--704",
+    abstract = "We describe the evaluation and development of a rule-based treebank conversion tool, UDConverter, which converts treebanks from the constituency-based PPCHE annotation scheme to the dependency-based Universal Dependencies (UD) scheme. The tool has already been used in the production of three UD treebanks, although no formal evaluation of the tool has been carried out as of yet. By manually correcting new output files from the converter and comparing them to the raw output, we measured the labeled attachment score (LAS) and unlabeled attachment score (UAS) of the converted texts. We obtain an LAS of 82.87 and a UAS of 87.91. In comparison to other tools, UDConverter currently provides the best results in automatic UD treebank creation for Icelandic.",
+}
 ```
 
 # Changelog
+* 2023-11-15 v2.13
+  * Various lemma fixes.
+  * Various feature fixes.
 * 2023-05-15 v2.12
   * Deprels for 'en', 'meðan' and 'uns' changed from `case` to `mark`.
   * Some systematic discrepancies between UPOS and universal features/IFD tags fixed.
