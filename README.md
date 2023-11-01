@@ -106,7 +106,7 @@ For further info on each text, see the [IcePaHC documentation](https://linguist.
 
 # Acknowledgments
 
-This project is funded by The Strategic Research and Development Programme for Language Technology, grant no. 180020-5301. Thanks are due to Örvar Kárason, whose previous work was used as a basis for the conversion.
+This project was funded by The Strategic Research and Development Programme for Language Technology, grant no. 180020-5301. Thanks are due to Örvar Kárason, whose previous work was used as a basis for the conversion.
 
 The Icelandic Parsed Historical Corpus (IcePaHC) is available at https://linguist.is/icelandic_treebank/Download and https://repository.clarin.is/repository/xmlui/handle/20.500.12537/62.
 
