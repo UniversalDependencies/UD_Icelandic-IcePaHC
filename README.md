@@ -155,6 +155,11 @@ Morphological features were generated using ABLTagger, a PoS tagger for Icelandi
 ```
 
 # Changelog
+* 2024-11-15 v2.15
+  * Fixes for (all) `leaf-det` warnings in `is_icepahc-ud-train.conllu`
+  * Fixes for `flat-foreign-upos-feats` warnings in `is_icepahc-ud-train.conllu`
+  * Various lemma fixes.
+  * Various feature fixes.
 * 2024-05-15 v2.14
   * Various lemma fixes.
   * Various feature fixes.
