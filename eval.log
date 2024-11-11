@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Icelandic-IcePaHC:
-commit 9b49e9f5e2fe4975592c7ad6586ec399e3c7dbf7
-Merge: 793dd78 3bfcc0d
+commit 40a2f76e95e3888e3f5eb267a509a01a43ee0d32
+Merge: 70e441b 2e2a87e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 985046 of 985046 words (nodes).
 Size: min(0, log((N/1000)**2)) = 13.7853766811785.
@@ -15,13 +15,13 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 578818 out of 985046 total words have one or more features.
+Features: 578870 out of 985046 total words have one or more features.
 Features: source of annotation (from README) factor is 0.4.
 Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi:
-               TOTAL      44548
-Udapi: found 44548 bugs.
+               TOTAL      44511
+Udapi: found 44511 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 985046 words.
 Genres: found 4 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang is --max-err=10 UD_Icelandic-IcePaHC/is_icepahc-ud-dev.conllu
@@ -29,18 +29,18 @@ Genres: found 4 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang is --max-err=10 UD_Icelandic-IcePaHC/is_icepahc-ud-test.conllu
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang is --max-err=10 UD_Icelandic-IcePaHC/is_icepahc-ud-train.conllu
-[Line 2437 Sent 1150.HOMILIUBOK.REL-SER,67.67 Node 34]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 2440 Sent 1150.HOMILIUBOK.REL-SER,67.67 Node 37]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 3720 Sent 1150.HOMILIUBOK.REL-SER,101.101 Node 5]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 3923 Sent 1150.HOMILIUBOK.REL-SER,108.108 Node 16]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 3922 Sent 1150.HOMILIUBOK.REL-SER,108.108 Node 15]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 3923 Sent 1150.HOMILIUBOK.REL-SER,108.108 Node 16]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 4548 Sent 1150.HOMILIUBOK.REL-SER,138.138 Node 2]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 6037 Sent 1150.HOMILIUBOK.REL-SER,194.194 Node 19]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 6036 Sent 1150.HOMILIUBOK.REL-SER,194.194 Node 18]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 6502 Sent 1150.HOMILIUBOK.REL-SER,209.209 Node 4]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 17605 Sent 1150.HOMILIUBOK.REL-SER,585.585 Node 36]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 20905 Sent 1150.HOMILIUBOK.REL-SER,686.686 Node 4]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 20937 Sent 1150.HOMILIUBOK.REL-SER,687.687 Node 6]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 34279 Sent 1150.HOMILIUBOK.REL-SER,1175.1175 Node 4]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 44270 Sent 1150.HOMILIUBOK.REL-SER,1476.1476 Node 48]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 45171 Sent 1150.HOMILIUBOK.REL-SER,1506.1506 Node 5]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 46493 Sent 1150.HOMILIUBOK.REL-SER,1548.1548 Node 16]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 46684 Sent 1150.HOMILIUBOK.REL-SER,1551.1551 Node 71]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 55681 Sent 1210.THORLAKUR.REL-SAG,233.1785 Node 18]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 55681 Sent 1210.THORLAKUR.REL-SAG,233.1785 Node 18]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 ...suppressing further errors regarding Warning
-Warnings: 360
+Warnings: 156
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.4) = 0.0307692307692308
@@ -49,8 +49,8 @@ Validity: 1
 (weight=0.256410256410256) * (score{size}=0.9978188372656) = 0.255850983914256
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
-(weight=0.307692307692308) * (score{udapi}=0.547757160579303) = 0.168540664793632
+(weight=0.307692307692308) * (score{udapi}=0.548132777555566) = 0.168656239247866
 (weight=0.0769230769230769) * (score{udeprels}=0.691891891891892) = 0.0532224532224532
-(TOTAL score=0.697221945067596) * (availability=1) * (validity=1) = 0.697221945067596
+(TOTAL score=0.697337519521831) * (availability=1) * (validity=1) = 0.697337519521831
 STARS = 3.5
-UD_Icelandic-IcePaHC	0.697221945067596	3.5
+UD_Icelandic-IcePaHC	0.697337519521831	3.5
