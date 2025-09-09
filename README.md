@@ -191,6 +191,7 @@ Morphological features were generated using ABLTagger, a PoS tagger for Icelandi
 Data available since: UD v2.7
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: fiction bible nonfiction legal
 Lemmas: converted from manual
 UPOS: converted from manual
