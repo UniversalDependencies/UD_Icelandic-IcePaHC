@@ -155,6 +155,8 @@ Morphological features were generated using ABLTagger, a PoS tagger for Icelandi
 ```
 
 # Changelog
+* 2025-11-15 v2.17
+  * Various corrections, mostly validation errors (too-many-objects).
 * 2025-05-15 v2.16
   * Various corrections, mostly feature fixes.
 * 2024-11-15 v2.15
