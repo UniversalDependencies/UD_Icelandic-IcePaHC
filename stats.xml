@@ -10,34 +10,34 @@
     <dev><sentences>4865</sentences><tokens>139383</tokens><words>139604</words><fused>221</fused></dev>
     <test><sentences>5157</sentences><tokens>139576</tokens><words>139695</words><fused>119</fused></test>
   </size>
-  <lemmas unique="35169" /><!-- ,, og, ., hann, að, vera, það, ég, í, á, til, en, ", sem, hafa -->
+  <lemmas unique="35145" /><!-- ,, og, ., hann, að, vera, það, ég, í, á, til, en, ", sem, hafa -->
   <forms unique="65659" /><!-- ,, og, ., að, hann, í, er, á, til, en, ", sem, var, þá, það -->
   <fusions unique="242" /><!-- skaltu, ertu, muntu, viltu, láttu, máttu, vertu, attú, veistu, áttu, sjáðu, heyrðu, farðu, þarftu, heldurðu -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="16">
-    <tag name="ADJ">37161</tag><!-- góður, samur, stór, heilagur, gamall, sannur, langur, fullur, illur, ungur -->
+    <tag name="ADJ">37163</tag><!-- góður, samur, stór, heilagur, gamall, sannur, langur, fullur, illur, ungur -->
     <tag name="ADP">103620</tag><!-- í, á, til, með, af, fyrir, um, að, við, upp -->
     <tag name="ADV">79019</tag><!-- ekki, þá, svo, þar, nú, vel, þó, hér, síðan, og -->
-    <tag name="AUX">51251</tag><!-- vera, hafa, munu, skulu, vilja, mega, geta, verða, fá, kunna -->
+    <tag name="AUX">51244</tag><!-- vera, hafa, munu, skulu, vilja, mega, geta, verða, fá, kunna -->
     <tag name="CCONJ">57253</tag><!-- og, en, eða, bæði, eður, né, hvorki, enda, ýmist, annaðhvort -->
     <tag name="DET">44947</tag><!-- sá, allur, þessi, mikill, einn, hinn, enginn, margur, nokkur, hver -->
     <tag name="INTJ">1198</tag><!-- já, nei, ó, amen, æ, jú, nú, jæja, ja, vei -->
-    <tag name="NOUN">145881</tag><!-- maður, dagur, konungur, biskup, hönd, land, orð, kóngur, sonur, faðir -->
-    <tag name="NUM">4412</tag><!-- tveir, þrír, fjórir, fimm, tólf, sex, sjö, tíu, hálfur, hundrað -->
+    <tag name="NOUN">145879</tag><!-- maður, dagur, konungur, biskup, hönd, land, orð, kóngur, sonur, faðir -->
+    <tag name="NUM">4413</tag><!-- tveir, þrír, fjórir, fimm, tólf, sex, sjö, tíu, hálfur, hundrað -->
     <tag name="PART">11781</tag><!-- að, nema, bara, einn, jafnvel, aðeins, at, einasta, a., alleinasta -->
     <tag name="PRON">120337</tag><!-- hann, það, ég, þú, hún, sinn, sig, annar, minn, hver -->
     <tag name="PROPN">41384</tag><!-- guð, jesús, drottinn, herra, kristur, sturla, illugi, jón, oddur, finnbogi -->
     <tag name="PUNCT">113951</tag><!-- ,, ., ", :, ;, ?, !, -, "-", ... -->
-    <tag name="SCONJ">41890</tag><!-- að, sem, er, en, ef, þegar, þó, nema, hvort, meðan -->
-    <tag name="VERB">128684</tag><!-- segja, koma, fara, taka, verða, gera, ganga, sjá, láta, eiga -->
+    <tag name="SCONJ">41891</tag><!-- að, sem, er, en, ef, þegar, þó, nema, hvort, meðan -->
+    <tag name="VERB">128689</tag><!-- segja, koma, fara, taka, verða, gera, ganga, sjá, láta, eiga -->
     <tag name="X">2277</tag><!-- anno, dominus, item, in, sankti, et, majst, trankival, etc, darius -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="36">
-    <feat name="Case" value="Acc" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,INTJ,NOUN,NUM,PART,PRON,PROPN,PUNCT,SCONJ,VERB,X">95018</feat><!-- það, hann, þá, mig, sig, þetta, sinn, sína, þann, hana -->
-    <feat name="Case" value="Dat" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,NUM,PART,PRON,PROPN,SCONJ,VERB,X">95376</feat><!-- því, honum, þeim, mér, sér, þér, sínum, henni, oss, öllum -->
+    <feat name="Case" value="Acc" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,INTJ,NOUN,NUM,PART,PRON,PROPN,PUNCT,SCONJ,VERB,X">95021</feat><!-- það, hann, þá, mig, sig, þetta, sinn, sína, þann, hana -->
+    <feat name="Case" value="Dat" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,NUM,PART,PRON,PROPN,SCONJ,VERB,X">95375</feat><!-- því, honum, þeim, mér, sér, þér, sínum, henni, oss, öllum -->
     <feat name="Case" value="Gen" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,NUM,PRON,PROPN,PUNCT,SCONJ,VERB,X">41956</feat><!-- hans, þeirra, þess, guðs, hennar, manna, allra, síns, þessa, sín -->
-    <feat name="Case" value="Nom" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,INTJ,NOUN,NUM,PART,PRON,PROPN,PUNCT,SCONJ,VERB,X">170900</feat><!-- hann, þeir, það, þú, eg, ég, hún, vér, menn, sá -->
+    <feat name="Case" value="Nom" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,INTJ,NOUN,NUM,PART,PRON,PROPN,PUNCT,SCONJ,VERB,X">170898</feat><!-- hann, þeir, það, þú, eg, ég, hún, vér, menn, sá -->
     <feat name="Definite" value="Def" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,NUM,PART,PRON,PROPN,PUNCT,VERB,X">40519</feat><!-- meira, meiri, daginn, fleiri, fólkið, veturinn, fyrri, keisarinn, fyrsta, maðurinn -->
     <feat name="Definite" value="Ind" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,INTJ,NOUN,NUM,PART,PRON,PROPN,SCONJ,VERB,X">193596</feat><!-- menn, maður, guð, guðs, herra, konungur, manna, biskup, mönnum, mikið -->
     <feat name="Degree" value="Cmp" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,NUM,PRON,PROPN,VERB,X">6244</feat><!-- heldur, fyrr, meira, síðar, nær, meir, betur, meiri, fleiri, fyrri -->
@@ -76,18 +76,18 @@
     <dep name="acl">14151</dep>
     <dep name="acl:relcl">13996</dep>
     <dep name="advcl">18935</dep>
-    <dep name="advmod">70064</dep>
-    <dep name="amod">44533</dep>
+    <dep name="advmod">70069</dep>
+    <dep name="amod">44541</dep>
     <dep name="appos">9326</dep>
-    <dep name="aux">19915</dep>
+    <dep name="aux">19910</dep>
     <dep name="case">88185</dep>
     <dep name="cc">56540</dep>
-    <dep name="ccomp">20635</dep>
+    <dep name="ccomp">20636</dep>
     <dep name="compound:prt">12786</dep>
-    <dep name="conj">50892</dep>
+    <dep name="conj">50970</dep>
     <dep name="cop">28117</dep>
     <dep name="csubj">2</dep>
-    <dep name="dep">4384</dep>
+    <dep name="dep">4413</dep>
     <dep name="det">19483</dep>
     <dep name="discourse">1044</dep>
     <dep name="dislocated">1</dep>
@@ -96,18 +96,18 @@
     <dep name="flat">2</dep>
     <dep name="flat:foreign">892</dep>
     <dep name="flat:name">3396</dep>
-    <dep name="iobj">7270</dep>
-    <dep name="mark">51433</dep>
-    <dep name="nmod">1734</dep>
-    <dep name="nmod:poss">31979</dep>
-    <dep name="nsubj">94510</dep>
-    <dep name="nummod">3245</dep>
-    <dep name="obj">45194</dep>
-    <dep name="obl">102211</dep>
+    <dep name="iobj">7277</dep>
+    <dep name="mark">51434</dep>
+    <dep name="nmod">1736</dep>
+    <dep name="nmod:poss">31983</dep>
+    <dep name="nsubj">94638</dep>
+    <dep name="nummod">3246</dep>
+    <dep name="obj">44950</dep>
+    <dep name="obl">102191</dep>
     <dep name="parataxis">1821</dep>
     <dep name="punct">113951</dep>
     <dep name="root">44029</dep>
     <dep name="vocative">1730</dep>
-    <dep name="xcomp">6955</dep>
+    <dep name="xcomp">6960</dep>
   </deps>
 </treebank>

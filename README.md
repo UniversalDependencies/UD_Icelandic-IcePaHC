@@ -155,6 +155,8 @@ Morphological features were generated using ABLTagger, a PoS tagger for Icelandi
 ```
 
 # Changelog
+* 2025-11-15 v2.17
+  * Various corrections, mostly validation errors (too-many-objects).
 * 2025-05-15 v2.16
   * Various corrections, mostly feature fixes.
 * 2024-11-15 v2.15
@@ -191,6 +193,7 @@ Morphological features were generated using ABLTagger, a PoS tagger for Icelandi
 Data available since: UD v2.7
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: fiction bible nonfiction legal
 Lemmas: converted from manual
 UPOS: converted from manual
